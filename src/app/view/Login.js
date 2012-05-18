@@ -78,6 +78,14 @@ Ext.define('RaxaEmr.view.Login', {
             centered: true,
             width: 350,
             style: 'margin-top: 180px;'
+        }, {
+            xtype: 'button',
+            text: 'ByPass SIGN IN',
+            id: 'bypassSignInButton',
+            ui: 'decline-round',
+            centered: true,
+            width: 350,
+            style: 'margin-top: 180px;'
         }]
     }
 });

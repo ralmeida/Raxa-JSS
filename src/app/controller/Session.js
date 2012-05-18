@@ -12,6 +12,7 @@ Ext.define('RaxaEmr.controller.Session', {
 
         refs: {
             signInButton: '#signInButton',
+            bypassSignInButton: '#bypassSignInButton',
             Registration: '#Registration',
             Screener: '#Screener',
             Inpatient: '#Inpatient',
@@ -26,6 +27,9 @@ Ext.define('RaxaEmr.controller.Session', {
         control: {
             signInButton: {
                 tap: 'doLogin'
+            },
+            bypassSignInButton: {
+                tap: 'showDashboard'
             }
         }
     },

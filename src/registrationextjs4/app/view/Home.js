@@ -22,7 +22,12 @@ Ext.define('Registration.view.Home', {
                     type: 'vbox'
                 },
                 bodyPadding: 10,
-                items: [{
+                items: [
+                    Ext.create('Ext.ux.RaxaSearchPanel', {
+                        title: "Testing"}) ,
+                    Ext.create('Ext.ux.RaxaSearchPanel', {
+                        title: "Testing2"}) ,
+                {
                     xtype: 'image',
                     height: 130,
                     margin: '0 0 20 0',
@@ -51,7 +56,7 @@ Ext.define('Registration.view.Home', {
                     labelAlign: 'top',
                     width: 300,
                     hideTrigger: true
-                }, {
+                },{
                     xtype: 'button',
                     height: 35,
                     margin: '10 0 13 0',
